@@ -1,4 +1,5 @@
 package com.mentoria.mentoriaghibli.domain.model
 
-class ExampleModel {
-}
+data class Films(
+    val films: String
+)
