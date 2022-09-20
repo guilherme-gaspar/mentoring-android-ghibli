@@ -18,8 +18,8 @@ E aplicar o seguinte roadmap para evoluir o conhecimento necessário: https://gi
 
 # O que iremos desenvolver?
 
-Um aplicativo que consiga consumir a API de Harry Potter: https://hp-api.herokuapp.com/
-Com desafio de layout com base em um projeto do Dribble (https://dribbble.com/shots/14748778-Task-Manager-Mobile)
+Um aplicativo que consiga consumir a API dos Studio Ghibli: https://ghibliapi.herokuapp.com/
+Com desafio de layout com base em um projeto do Dribble (https://dribbble.com/shots/18297252-Nobar-Movie-Streaming-App)
 
 |Desafio tela principal | Desafio tela de listagem | Desafio da tela de detalhes |
 |----------|----------|----------|
