@@ -1,6 +1,7 @@
 package com.mentoria.mentoriaghibli
 
 import android.app.Application
+import com.mentoria.mentoriaghibli.di.ghibliModules
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
 
@@ -10,7 +11,7 @@ class BaseApplication : Application() {
 
         startKoin {
             androidContext(this@BaseApplication)
-            modules(listOf())
+            modules(ghibliModules)
         }
     }
 }

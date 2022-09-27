@@ -5,11 +5,11 @@ import com.mentoria.mentoriaghibli.data.service.GhibliService
 import org.koin.dsl.module
 import retrofit2.Retrofit
 
-val ghibliModules = module {
+val retrofit = getInstance()
 
-    // Todo(Criar objeto retrofit)
+val ghibliModules = module {
     factory {
-        getInstance()
+        retrofit
     }
 
     factory {

@@ -10,8 +10,12 @@ data class FilmsResponse(
     val director: String,
     @SerializedName("id")
     val id: String,
+    @SerializedName("image")
+    val image: String,
     @SerializedName("locations")
     val locations: List<String>,
+    @SerializedName("movie_banner")
+    val movieBanner: String,
     @SerializedName("original_title")
     val originalTitle: String,
     @SerializedName("original_title_romanised")

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">mentoriaghibli</string>
+    <string name="generic_error">Parece que ocorreu um erro, tente novamente</string>
 </resources>
