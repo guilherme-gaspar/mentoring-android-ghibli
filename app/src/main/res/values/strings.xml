@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">mentoriaghibli</string>
     <string name="generic_error">Parece que ocorreu um erro, tente novamente</string>
+    <string name="title_activity_ghibli_app">GhibliAppActivity</string>
 </resources>
