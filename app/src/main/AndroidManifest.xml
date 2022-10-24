@@ -14,10 +14,14 @@
         android:theme="@style/Theme.Mentoriaghibli"
         tools:targetApi="31">
         <activity
-            android:name=".GhibliAppActivity"
+            android:name=".presentation.GhibliActiviy"
             android:exported="false"
-            android:label="@string/title_activity_ghibli_app"
-            android:theme="@style/Theme.Mentoriaghibli" />
+            android:label="@string/title_activity_ghibli_activiy"
+            android:theme="@style/Theme.Mentoriaghibli">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".presentation.MainActivity"
             android:exported="true">
